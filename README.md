@@ -69,6 +69,6 @@ Spring secara otomatis mengimplementasikan interface JpaRepository di belakang l
 
 ## Demo Proyek
 <ul>
-  <li>Github: <a href="">Github</a></li>
+  <li>Github: <a href="https://github.com/nadaismaya/UTS_PBO2_TIF-K-23A_23552011125.git">Github</a></li>
   <li>Youtube: <a href="https://drive.google.com/file/d/1-4Fnyat8XQrj20xJH4UMdpW9MVIJQbjV/view?usp=sharing">Drive</a></li>
 </ul>
