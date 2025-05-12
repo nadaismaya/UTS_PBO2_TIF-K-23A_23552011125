@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #cceeff, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 50, 0.15);
+    width: 90%;
+    max-width: 600px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #0077b6;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #005f73;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+nav a.active,
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #023e8a;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 65%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo-actions form {
+    display: inline;
+}
+
+.logout-form {
+    text-align: center;
+    margin-top: 25px;
+}
+
