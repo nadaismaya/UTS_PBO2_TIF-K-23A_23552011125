@@ -26,8 +26,11 @@
 Dalam proyek ini, CustomUserDetails menerapkan (implements) interface UserDetails, yang merupakan bagian dari Spring Security. Dengan begitu, CustomUserDetails mewarisi kontrak fungsi-fungsi yang dibutuhkan untuk otentikasi, seperti getUsername(), getPassword(), dan getAuthorities().
 
 Contoh:
+<br />
 public class CustomUserDetails implements UserDetails {
+<br />
     // Inherits methods from UserDetails
+<br />
 }
 </p>
 
@@ -35,12 +38,19 @@ public class CustomUserDetails implements UserDetails {
 <p>Encapsulation menyembunyikan detail implementasi sebuah class dari luar dan hanya memperbolehkan akses melalui metode getter dan setter. Pada Proyek ini, Class seperti User dan ToDo menggunakan akses modifier private untuk atribut dan menyediakan getter/setter publik untuk mengakses dan memodifikasi data tersebut.
 
 Contoh pada class User:
+<br />
 private String username;
+<br />
 public String getUsername() {
+<br />
     return username;
+<br />
 }
+<br />
 public void setUsername(String username) {
+<br />
     this.username = username;
+<br />
 }
 </p>
 
@@ -48,11 +58,18 @@ public void setUsername(String username) {
 <p>Polymorphism memungkinkan objek untuk memiliki banyak bentuk. Ini bisa berupa method overriding (dalam inheritance) atau method overloading (dalam satu class). Pada proyek ini, UserDetailsService adalah interface yang diimplementasikan oleh CustomUserDetailsService. Karena itu, Spring bisa memanggil loadUserByUsername() dari CustomUserDetailsService melalui referensi ke UserDetailsService.
 
 Contoh:
+<br />
 UserDetailsService service = new CustomUserDetailsService();
+<br />
 service.loadUserByUsername("user");
+<br />
 
-ToDoService memiliki beberapa method findBy..., semuanya menggunakan nama yang mirip tetapi berperilaku berbeda tergantung parameter, contohnya:
+ToDoService memiliki beberapa method findBy..., semuanya menggunakan nama yang mirip tetapi berperilaku berbeda tergantung parameter, 
+
+Contoh:
+<br />
 findCompletedByUser(User user)
+<br />
 findIncompleteByUser(User user)
 </p>
 
