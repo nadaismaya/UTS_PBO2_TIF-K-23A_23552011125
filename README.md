@@ -60,8 +60,11 @@ findIncompleteByUser(User user)
 <p>Abstraction menyembunyikan kompleksitas internal dan hanya menampilkan antarmuka yang diperlukan kepada pengguna. Ini bisa dicapai melalui abstract class atau interface. Pada proyek ini, Interface seperti UserDetails, UserDetailsService, dan JpaRepository adalah bentuk abstraksi. Kita hanya mengimplementasikan fungsi-fungsi pentingnya saja, tanpa tahu detail internal library Spring.
 
 Contoh: 
+<br />
 public interface UserRepository extends JpaRepository<User, Long> {
+<br />
     Optional<User> findByUsername(String username);
+    <br />
 }
 
 Spring secara otomatis mengimplementasikan interface JpaRepository di belakang layar—developer tidak perlu tahu bagaimana query SQL sebenarnya dijalankan.
@@ -70,5 +73,5 @@ Spring secara otomatis mengimplementasikan interface JpaRepository di belakang l
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/nadaismaya/UTS_PBO2_TIF-K-23A_23552011125.git">Github</a></li>
-  <li>Youtube: <a href="https://drive.google.com/file/d/1-4Fnyat8XQrj20xJH4UMdpW9MVIJQbjV/view?usp=sharing">Drive</a></li>
+  <li>Drive: <a href="https://drive.google.com/file/d/1-4Fnyat8XQrj20xJH4UMdpW9MVIJQbjV/view?usp=sharing">Drive</a></li>
 </ul>
