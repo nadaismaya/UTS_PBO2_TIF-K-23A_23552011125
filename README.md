@@ -8,7 +8,7 @@
 <ul>
   <li>Nama: {Nada Ismaya}</li>
   <li>NIM: {23552011125}</li>
-  <li>Studi Kasus: {Membuat Aplikasi ToDo - List}</li>
+  <li>Studi Kasus: {Membuat Aplikasi ToDo - List Menggunakan Spring Boot dan Thymelife}</li>
 </ul>
 
 ## Judul Studi Kasus
@@ -64,7 +64,7 @@ UserDetailsService service = new CustomUserDetailsService();
 service.loadUserByUsername("user");
 <br />
 
-ToDoService memiliki beberapa method findBy..., semuanya menggunakan nama yang mirip tetapi berperilaku berbeda tergantung parameter, 
+ToDoService memiliki beberapa method findBy..., semuanya menggunakan nama yang mirip tetapi berperilaku berbeda tergantung parameter.
 
 Contoh:
 <br />
