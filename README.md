@@ -12,7 +12,7 @@
 </ul>
 
 ## Judul Studi Kasus
-<p>Aplikasi Manajemen Tugas Pribadi (Todo List) Berbasis Spring Boot & Thymeleaf
+<p>Aplikasi Manajemen Tugas Pribadi (Todo List) dengan Fitur Login Berbasis Spring Boot & Thymeleaf
 </p>
 
 ## Penjelasan Studi Kasus
