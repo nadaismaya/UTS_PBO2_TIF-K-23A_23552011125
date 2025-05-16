@@ -12,7 +12,7 @@
 </ul>
 
 ## Judul Studi Kasus
-<p>Aplikasi Manajemen Tugas Pribadi (Todo List) dengan Fitur Login Berbasis Spring Boot & Thymeleaf
+<p>Aplikasi Manajemen Tugas Pribadi (Todo List) Berbasis Spring Boot & Thymeleaf
 </p>
 
 ## Penjelasan Studi Kasus
@@ -91,4 +91,5 @@ Spring secara otomatis mengimplementasikan interface JpaRepository di belakang l
 <ul>
   <li>Github: <a href="https://github.com/nadaismaya/UTS_PBO2_TIF-K-23A_23552011125.git">Github</a></li>
   <li>Drive: <a href="https://drive.google.com/file/d/1-4Fnyat8XQrj20xJH4UMdpW9MVIJQbjV/view?usp=sharing">Drive</a></li>
+  <li>YouTube: <a href="https://youtu.be/Ic0_0Bjuea4">Youtube</a></li>
 </ul>
